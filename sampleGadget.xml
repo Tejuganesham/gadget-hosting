@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs title="My Sample Widget" height="250" scrolling="true">
+    <Require feature="dynamic-height"/>
+  </ModulePrefs>
+
+  <Content type="html">
+    <![CDATA[
+      <div style="font-family: Arial; padding: 10px;">
+        <h2 style="color: #2E86C1;">✅ Widget Loaded Successfully</h2>
+        <p>This is a working OpenSocial gadget inside IBM ELM.</p>
+
+        <hr>
+
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="https://www.ibm.com" target="_blank">IBM</a></li>
+          <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        </ul>
+
+        <p style="margin-top:20px; color:gray;">
+          You can customize this gadget with your own content.
+        </p>
+      </div>
+    ]]>
+  </Content>
+</Module>
